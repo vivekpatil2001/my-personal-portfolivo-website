@@ -7,21 +7,26 @@ body {
     background-color: white;
     color: black;
     font-family: 'Poppins', sans-serif;
-    ;
+    margin-top: 0;
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 72px;
+    height: 92px;
     background-color: rgb(204, 186, 186);
+    margin-top: -20px;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-
+     margin-top: 0;
 }
 
 nav ul li {
@@ -30,13 +35,17 @@ nav ul li {
 }
 
 .left {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .firstsection {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 23px 0;
+}
+.right{
+ text-decoration: none;
 }
 
 .firstsection>div {
@@ -49,9 +58,16 @@ nav ul li {
     margin-left: 150px;
 
 }
+.textdecoration{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+}
 
 .rightsection {
     margin-right: 200px;
+    text-decoration: none;
 
 }
 
@@ -74,6 +90,11 @@ nav ul li {
 .firsttext {
     font-size: 40px;
     margin-bottom: 20px;
+    text-align: center;
+}
+.text2{
+    font-size: 25px;
+  text-align: center;
 }
 
 .btn-resume {
@@ -125,20 +146,22 @@ nav ul li {
 
 .main-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 800px;
 
 }
 
 .card {
-    background-color: rgb(204, 186, 186);
-    height:600px;
+    /* background-color: rgb(204, 186, 186); */
+    height:620px;
     width:40%;
     color: black;
     border: 2px solid black;
     border-radius: 10px;
     margin: 40px 20px;
    padding: 25px;
+   flex-wrap: wrap;
 
 }
 .h1{
@@ -147,5 +170,130 @@ nav ul li {
 .m1{
     border-block-end-color: aquamarine;
     border:1px solid black;
+    width: 150px;
+    margin-left: 220px;
     
+}
+.TEXTMORE{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.btnmore{
+    height: 30px;
+    width: 130px;
+   margin-left: 230px;
+   font-size: 25px;
+   border: 1px solid black;
+   background: none;
+}
+.webdevelopment{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.iconlanguage{
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ..................... */
+
+.projecttext{
+    text-align: center;
+    font-size: 20px;
+    font-weight:300;
+    margin-top: 23px;
+
+}
+.project-card-main{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+
+    
+}
+.project-card{
+    height: 500px;
+    /* background-color: aquamarine; */
+    width: 420px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 32px;  
+}
+.img-project{
+    height: 250px;
+    width: 420px;
+    border-radius: 10px 10px 0 0;  
+}
+.btn-demo{
+    height: 40px;
+    width: 120px;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(182, 227, 232);
+    
+}
+.contact-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.card-contact{
+    height: 500px;
+    width: 500px;
+   
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.input-contact{
+   margin-top:30px;
+   margin-left: 30px;
+}
+.input-box{
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+.input-height{
+    height: 160px;
+   
+}
+.btn-submit{
+    height: 40px;
+    width: 130px;
+    background-color:rgb(182, 227, 232);
+    margin-top: 30px;
+    margin-left: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+
+}
+.my-img{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
 }

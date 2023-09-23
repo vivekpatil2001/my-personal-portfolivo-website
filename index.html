@@ -6,33 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vivek developer portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
+</head>`
 
 <body>
     <div>
         <nav>
-            <div class="left">Vivek,s portfolio</div>
+            <div class="left"> Vivek's portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Contact me</li>
+                    <li> <a href="#home" class="textdecoration">Home</a></li>
+                    <li><a href="#ABOUT" class="textdecoration">About</a></li>
+                    <li><a href="#" class="textdecoration">Services</a></li>
+                    <li><a href="#project" class="textdecoration">Projects</a></li>
+                    <li><a href="#contact" class="textdecoration">Contact me</a></li>
                 </ul>
             </div>
 
         </nav>
     </div>
     <main>
-        <section class="firstsection">
+        <section class="firstsection" id="home">
             <div class="leftsection">
                 <div class="firsttext">HEY, I'M vivek shejole</div>
+                <p class="text2">A MERN Stack Developer Passionate<br> About Coding. Always ready <br>to try Hands-on
+                    New<br> &<br>Emerging Technologies.</p>
 
-                <div class="texthome"> A MERN Stack Developer Passionate About</div>
+                <!-- <div class="texthome"> A MERN Stack Developer Passionate About</div>
                 <div class="texthome"> Coding. Always ready to try Hands-on New <span
                         style="margin-left:160px;">&</span> </div>
-                <div class="texthome"> <span style="margin-left: 80px;">Emerging Technologies.</span> </div>
+                <div class="texthome"> <span style="margin-left: 80px;">Emerging Technologies.</span> </div> -->
                 <button class="btn-resume">
                     Resume
                 </button>
@@ -48,28 +50,137 @@
     </main>
     <hr>
     <div>
-        <h1 class="heading-about"><u>ABOUT ME</u></h1>
-        <p class="heading-about">Here you will find more information about me, what I do, <br>and my current skills mostly in terms of programming and technology
+        <h1 class="heading-about" ID="ABOUT"><u>ABOUT ME</u></h1>
+        <p class="heading-about">Here you will find more information about me, what I do, <br>and my current skills
+            mostly in terms of programming and technology
         </p>
     </div><br><br><br>
     <div class="main-container">
         <div class="card">
-             <h2 class="h1">GET KNOW TO ME</h2><br><br>
-             <P class="h1 m1">EDUCATION</P><br>
-             <p>B.Tech in Information Technology</P><br>
+            <h2 class="h1">GET KNOW TO ME</h2><br>
+            <button class="btnmore"> Education</button>
+            <p class="TEXTMORE">B.Tech in Information Technology</P>
 
-              <P> GWCET, NAGPUR <br>
+            <P class="TEXTMORE"> GWCET, NAGPUR <br>
                 Aug 2021 - June 2024<br>
-               
+
+
+
+            <p class="TEXTMORE">
+                HSC in computer science<br><br>
+
+                Burungale college, Shegaon<br>
+                Aug2018-2020
+            </p>
+            <br>
+            <button class="btnmore"> more</button>
+            <p class="TEXTMORE">I'm an engineer passionate about coding. Always ready to try hands-on new and emerging
+                technologies.<br><br>
+
+                I have a strong foundation in MERN Stack and I am skilled in creating interactive and visually appealing
+                websites.<br><br>
+
+                I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity
+                that matches my skills and experience then don't hesitate to contact me.</p>
         </div>
-        <div class="card"> <img src=""></div>
+        <div class="card">
+            <h1 style="text-align: center;">MY SKILLS</h1>
+            <button class="btnmore webdevelopment"> WEB DEVELOPMENT</button>
+            <div class="iconlanguage">
+                <img src="./img/html.6e930594286d8afe4c79.png">
+                <img src="./img/css-3.463e319bad8e0edf1ef7.png">
+                <img src="./img/js.3dfb665e058d08c99f28.png">
+                <img src="./img/bootstrap.268c4375260420e8d982.png">
+            </div>
+            <div class="iconlanguage">
+                <img src="./img/nodejs.007e99f68b718e476aba.png">
+                <img src="./img/react.86c8d9eba03e29814d2a.png">
+
+            </div>
+            <button class="btnmore webdevelopment"> LANGUAGES</button>
+            <div class="iconlanguage">
+                <img src="./img/c-programming.272d1cfdb06887e8671d.png">
+
+            </div>
+            <button class="btnmore webdevelopment"> TOOL'S</button>
+            <div class="iconlanguage">
+                <img src="./img/github-logo.1f01b12d586c842bcc8c.png">
+                <img src="./img/linkedin.f249b38224ca41a0b909.png">
+
+            </div>
+
+        </div>
 
 
 
     </div>
-
+  <hr>
     <div>
-        <h1 class="heading-about"><u>Projects</u></h1>
+        <h1 class="heading-about" id="project"><u>Projects</u></h1>
+        <p class="projecttext">Here you will find some of my personal projects that I created with each<br> project
+            containing its project stack</p>
+        <div class="project-card-main">
+            <div class="project-card">
+                <img src="./img/hotel-hariyali-project-img.png" class="img-project" /><br><br>
+                <h2 style="text-align: center;">Hotel Website</h2>
+                <p style="text-align: center; font-size: 23px; margin-top: 20px;">
+                    This is simple React Project which gives <br>you Hotel Hariyali infomation and Book table
+                </p>
+                <button class="btn-demo"><a href="https://hotel-hariyali-project.vercel.app/" style="text-decoration: none;">Demo</a></button>
+            </div>
+            <div class="project-card">
+                <img src="./img/project-gallery.png" class="img-project" /><br><br>
+                <h2 style="text-align: center;">Project Gallery</h2>
+                <p style="text-align: center; font-size: 23px; margin-top: 20px;">
+                    This is simple javascript Project which gives you
+                </p><br>
+                <button class="btn-demo"><a href="https://project-gallery-javascript.netlify.app/" style="text-decoration: none;" >Demo</a></button>
+            </div>
+            <div class="project-card">
+                <img src="./img/cubefurniture-project.png" class="img-project" /><br><br>
+                <h2 style="text-align: center;">Cubefurniture Website</h2>
+                <p style="text-align: center; font-size: 23px; margin-top: 20px;">
+                    This is simple bootstrap Project which gives <br>you furniture shop infomation .
+                </p>
+                <button class="btn-demo"><a href="https://cube-furniture.netlify.app" style="text-decoration: none;">Demo</a></button>
+            </div>
+        </div>
+
+
+    </div><br><br>
+<hr>
+
+<!-- .......................................................... -->
+    <div>
+        <h1 class="heading-about" id="contact">CONTACT</h1>
+        <p class="projecttext">Feel free to Contact me by submitting the form below and I will get <br> back to you as
+            soon as possible</p>
+        <div class="contact-card">
+            <div class="card-contact">
+                <div class="input-contact">
+                    <p>NAME</p>
+                    <input type="text" placeholder="  Enter Your Name" class="input-box" /><br><br>
+
+                    <p>Email</p>
+                    <input type="email" placeholder="  Enter Your E-mail" class="input-box" /><br><br>
+
+                    <p>Message</p>
+                    <input type="text" placeholder=" message" class="input-box input-height" />
+
+                    <button class="btn-submit">Submmit</button>
+                </div>
+            </div>
+            <div class="card-contact">
+                  <img src="./img/20211112155411_IMG_9083.JPG" class="my-img"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div style="color: white;">
+          <p style="text-align: center; font-size: 30px; margin-top: 10px; font-weight: bold; border-bottom: 2px solid pink;">HEY, I'M VIVEK SHEJOLE</p>  <br>
+A MERN Stack Developer Passionate About Coding. Always<br> ready to try Hands-on New and Emerging Technologies.
+        </div>
 
     </div>
 </body>
